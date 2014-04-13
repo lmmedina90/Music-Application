@@ -4,6 +4,10 @@ ruby '2.0.0'
 
 gem 'rails', '4.0.4'
 
+group :test do
+	gem 'factory_girl_rails', '4.2.1'
+end
+
 group :development do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
